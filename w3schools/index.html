@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Felix w3Schools Test</title>
+        <script src="w3schools.js"></script>
+    </head>
+    <body>
+        <h1>This is a calculator</h1>
+
+        <form>
+            <label for="value1">Value 1:</label><br>
+            <input type="text" id="value1" name="value1"><br>
+
+            <label for="value2">Value 2:</label><br>
+            <input type="text" id="value2" name="value2">
+        </form>        
+
+        <p>Click it now</p>
+
+        <button onclick="myadd(document.getElementById('value1').value, 
+                               document.getElementById('value2').value)">Add values</button>
+
+
+        <p>The result is</p>
+        <input name="addResult" id="addResult" type="number" value="" readonly>
+
+    </body>
+</html
