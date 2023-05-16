@@ -11,3 +11,7 @@ function myadd(value1, value2) {
     document.getElementById('addResult').value = result
   }
  
+
+function myFunction() {
+  document.body.style.backgroundColor = "lightblue";
+}
