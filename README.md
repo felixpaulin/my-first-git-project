@@ -1,2 +1,2 @@
-# my-first-git-project
+# calculator for addition
 All about JavaScript
