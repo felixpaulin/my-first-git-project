@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <p id="demo">HAPPY MOTHERS DAY!!!!!!</p>
-
-        <button type="button" onclick="document.getElementById('demo').style.fontSize='200px'">Click Me!</button>
-    <head>
-
-        <body>
-            <script>
-                function myFunction() {
+function myFunction() {
                   document.getElementById("myDIV").style.backgroundColor = "red";
                     document.getElementById("myDIV").style.backgroundColor = "orange";
                          document.getElementById("myDIV").style.backgroundColor = "yellow";
@@ -20,8 +10,3 @@
                     document.getElementById("myDIV").style.backgroundColor = "green";
                   document.getElementById("myDIV").style.backgroundColor = "blue";
                 }
-                </script>
-                
-                    <script>
-                        <button onclick="myFunction()">Try it</button>
-                    </script>
