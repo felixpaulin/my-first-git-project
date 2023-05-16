@@ -6,7 +6,7 @@ function myadd(value1, value2) {
     var result = parseFloat(value1) + parseFloat(value2)
     console.log("my function myadd returns " + result)
     
-    alert("The result is " + result)
+    window.alert("The result is " + result)
 
     document.getElementById('addResult').value = result
   }
