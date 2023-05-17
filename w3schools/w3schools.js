@@ -16,7 +16,7 @@ function myFunction() {
   document.body.style.backgroundColor = "lightblue";
 
   for (var i=0, max=all.length; i < max; i++) {
-    all[i].style.color = "black";
+    all[i].style.color = "blue";
    }
 }
 
@@ -34,7 +34,7 @@ function myFunction3() {
   document.body.style.backgroundColor = "yellow";
 
   for (var i=0, max=all.length; i < max; i++) {
-    all[i].style.color = "black";
+    all[i].style.color = "green";
    }
 }
 
@@ -43,7 +43,7 @@ function myFunction4() {
   var all = document.getElementsByTagName("*");
 
   for (var i=0, max=all.length; i < max; i++) {
-   all[i].style.color = "black";
+   all[i].style.color = "yellow";
   }
 }
 
