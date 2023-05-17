@@ -14,7 +14,7 @@ function myadd(value1, value2) {
 
 function myFunction() {
   document.body.style.backgroundColor = "lightblue";
-
+  var all = document.getElementsByTagName("*");
   for (var i=0, max=all.length; i < max; i++) {
     all[i].style.color = "blue";
    }
@@ -22,37 +22,35 @@ function myFunction() {
 
 function myFunction2() {
   document.body.style.backgroundColor = "red";
-
-  for (var i=0, max=all.length; i < max; i++) {
-    all[i].style.color = "black";
-   }for (var i=0, max=all.length; i < max; i++) {
-   all[i].style.color = "black";
-  }
+  var all2 = document.getElementsByTagName("*");
+  for (var i=0, max=all2.length; i < max; i++) {
+    all2[i].style.color = "black";
+   }
 }
 
 function myFunction3() {
   document.body.style.backgroundColor = "yellow";
-
-  for (var i=0, max=all.length; i < max; i++) {
-    all[i].style.color = "green";
+  var all3 = document.getElementsByTagName("*");
+  for (var i=0, max=all3.length; i < max; i++) {
+    all3[i].style.color = "green";
    }
 }
 
 function myFunction4() {
   document.body.style.backgroundColor = "green";
-  var all = document.getElementsByTagName("*");
+  var all4 = document.getElementsByTagName("*");
 
-  for (var i=0, max=all.length; i < max; i++) {
-   all[i].style.color = "yellow";
+  for (var i=0, max=all4.length; i < max; i++) {
+   all4[i].style.color = "yellow";
   }
 }
 
 function myFunction5() {
   document.body.style.backgroundColor = "black";
-  var all = document.getElementsByTagName("*");
+  var all5 = document.getElementsByTagName("*");
 
-  for (var i=0, max=all.length; i < max; i++) {
-   all[i].style.color = "red";
+  for (var i=0, max=all5.length; i < max; i++) {
+   all5[i].style.color = "red";
   }
 }
 
