@@ -15,3 +15,15 @@ function myadd(value1, value2) {
 function myFunction() {
   document.body.style.backgroundColor = "lightblue";
 }
+
+function myFunction2() {
+  document.body.style.backgroundColor = "red";
+}
+
+function myFunction3() {
+  document.body.style.backgroundColor = "yellow";
+}
+
+function myFunction4() {
+  document.body.style.backgroundColor = "green";
+}
