@@ -54,3 +54,12 @@ function myFunction5() {
   }
 }
 
+function myFunction6() {
+  document.body.style.backgroundColor = "white";
+  var all6 = document.getElementsByTagName("*");
+
+  for (var i=0, max=all6.length; i < max; i++) {
+   all6[i].style.color = "black";
+  }
+}
+
