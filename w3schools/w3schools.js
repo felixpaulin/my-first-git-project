@@ -14,18 +14,37 @@ function myadd(value1, value2) {
 
 function myFunction() {
   document.body.style.backgroundColor = "lightblue";
+
+  for (var i=0, max=all.length; i < max; i++) {
+    all[i].style.color = "black";
+   }
 }
 
 function myFunction2() {
   document.body.style.backgroundColor = "red";
+
+  for (var i=0, max=all.length; i < max; i++) {
+    all[i].style.color = "black";
+   }for (var i=0, max=all.length; i < max; i++) {
+   all[i].style.color = "black";
+  }
 }
 
 function myFunction3() {
   document.body.style.backgroundColor = "yellow";
+
+  for (var i=0, max=all.length; i < max; i++) {
+    all[i].style.color = "black";
+   }
 }
 
 function myFunction4() {
   document.body.style.backgroundColor = "green";
+  var all = document.getElementsByTagName("*");
+
+  for (var i=0, max=all.length; i < max; i++) {
+   all[i].style.color = "black";
+  }
 }
 
 function myFunction5() {
