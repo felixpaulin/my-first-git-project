@@ -27,3 +27,13 @@ function myFunction3() {
 function myFunction4() {
   document.body.style.backgroundColor = "green";
 }
+
+function myFunction5() {
+  document.body.style.backgroundColor = "black";
+  var all = document.getElementsByTagName("*");
+
+  for (var i=0, max=all.length; i < max; i++) {
+   all[i].style.color = "red";
+  }
+}
+
