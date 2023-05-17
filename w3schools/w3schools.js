@@ -41,7 +41,7 @@ function myFunction4() {
   var all4 = document.getElementsByTagName("*");
 
   for (var i=0, max=all4.length; i < max; i++) {
-   all4[i].style.color = "yellow";
+   all4[i].style.color = "lightblue";
   }
 }
 
