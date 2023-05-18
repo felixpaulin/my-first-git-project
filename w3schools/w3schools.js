@@ -12,6 +12,18 @@ function myadd(value1, value2) {
   }
  
 
+
+  
+function changeColorStyle(backgroundColor, textColor) 
+{
+    document.body.style.backgroundColor = backgroundColor;
+
+    var all = document.getElementsByTagName("*");
+    for (var i=0; i < all.length; i++) {
+      all[i].style.color = textColor;
+     }
+}
+
 function myFunction() {
   document.body.style.backgroundColor = "lightblue";
   var all = document.getElementsByTagName("*");
