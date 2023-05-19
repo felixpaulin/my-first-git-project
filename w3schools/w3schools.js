@@ -24,6 +24,4 @@ function changeColorStyle(backgroundColor, textColor)
      }
 }
 
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+
